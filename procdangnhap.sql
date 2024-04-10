@@ -1,0 +1,26 @@
+﻿use QLSV
+go
+ DROP PROCEDURE IF EXISTS SP_LOG_IN_
+ GO
+--SP cho màn hình đăng nhập
+create proc SP_LOG_IN_
+(
+	@TENDN nvarchar(100),
+	@MATKHAU varchar(32)
+)
+As
+	Begin
+		DECLARE @EnPassSHA1 varbinary(max);
+		DECLARE @EnPassMD5 varbinary(max);
+		DECLARE @COUNT INT;
+		SET @EnPassSHA1=CONVERT(varbinary, HashBytes('SHA1',@MATKHAU));
+		SET @EnPassMD5=CONVERT(varbinary, HashBytes('MD5',@MATKHAU));
+		SET @COUNT = (SELECT COUNT(*) FROM NHANVIEN WHERE TENDN = @TENDN and MATKHAU = @EnPassSHA1)
+		if @COUNT = 1
+			BEGIN SELECT COUNT(*) FROM NHANVIEN WHERE TENDN = @TENDN and MATKHAU = @EnPassSHA1 RETURN END
+		ELSE
+			BEGIN SELECT COUNT(*) FROM SINHVIEN WHERE TENDN = @TENDN and MATKHAU = @EnPassMD5 END
+	END
+
+
+go

@@ -1,0 +1,11 @@
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\bin\Debug\20120262_Lab04_BMCSDL.exe.config
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\bin\Debug\20120262_Lab04_BMCSDL.exe
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\bin\Debug\20120262_Lab04_BMCSDL.pdb
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\20120262_Lab03_BMCSDL.csproj.AssemblyReference.cache
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\20120262_Lab03_BMCSDL.csproj.SuggestedBindingRedirects.cache
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\_20120262_Lab04_BMCSDL.Form1.resources
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\_20120262_Lab04_BMCSDL.Properties.Resources.resources
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\20120262_Lab03_BMCSDL.csproj.GenerateResource.cache
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\20120262_Lab03_BMCSDL.csproj.CoreCompileInputs.cache
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\20120262_Lab04_BMCSDL.exe
+C:\Users\danga\source\repos\20120262_Lab04_BMCSDL\obj\Debug\20120262_Lab04_BMCSDL.pdb
